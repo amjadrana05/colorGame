@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styel.css">
+	<style>
+		.square{
+			transition: .3s;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="displayColor-wrap">THE GREAT <span class="displayColor"></span> COLOR GAME</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button id="easy" class="mode">Easy</button>
+		<button id="hard" class="mode selected">Hard</button>
+	</div><!-- stripe-->
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>	
+
+
+	<script src="main.js"></script>
+</body>
+</html>
